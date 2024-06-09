@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'kartikeya-docker-hub'
-        repository: 'kartikeya/currency-exchange-devops'
+        repository: 'kartikeya123456/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
