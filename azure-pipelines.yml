@@ -22,5 +22,5 @@ stages:
         containerRegistry: 'kartikeya-docker-hub'
         repository: 'kartikeya123456/currency-exchange-devops'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: '$(tag)'
