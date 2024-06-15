@@ -35,7 +35,7 @@ stages:
           PathtoPublish: '$(Build.ArtifactStagingDirectory)'
           ArtifactName: 'drop'
           publishLocation: 'Container'
-          MaxArtifactSize: 100
+          MaxArtifactSize: 2000
 # - stage: DevDeploy
 #   variables:
 #     environment: Dev
