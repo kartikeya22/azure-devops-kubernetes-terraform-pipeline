@@ -20,7 +20,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'kartikeya-docker-hub'
-        repository: 'in28min/currency-exchange-devops'
+        repository: 'kartikeya123456/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: '$(tag)'
